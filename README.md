@@ -2,18 +2,23 @@
 
 Esse repositorio vai ser utilizado por quem tem preguiça de ficar clicando no bau de pontos da twitch
 ```
+var chestcount = 0;
+var chestundefinedcount = 0;
+
 setInterval(function(){
 
   buttonchest = document.getElementsByClassName("tw-button tw-button--success tw-interactive")[0];
 
     if(buttonchest === undefined){
-      console.log("Bau não disponivel ainda");
+      chestundefinedcount++;
     }
     else{
       document.getElementsByClassName("tw-button tw-button--success tw-interactive")[0].click();
-      console.log("Bau coletado")
+      chestcount++;
+      console.log("Quantidade de Baus coletados:" + chestcount);
+      console.log("Verificações Realizadas" + chestundefinedcount);
     }
 
-},15000);
+},50000);
 
 ```
