@@ -2,17 +2,11 @@
 
 ```
 setInterval(function(){
-
   buttonChest = document.querySelector('[aria-label="Resgatar Bônus"]');
-
-    if(buttonchest){
+    if(buttonChest){
       buttonChest.click();
       console.log("Bau coletado");
     }
-    else{
-     console.log("Verificação Realizada");
-    }
-
 },15000);
 
 ```
