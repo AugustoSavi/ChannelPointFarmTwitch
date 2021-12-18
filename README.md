@@ -3,14 +3,14 @@
 ```
 setInterval(function(){
 
-  buttonchest = document.getElementsByClassName("tw-button tw-button--success")[0];
+  buttonChest = document.querySelector('[aria-label="Resgatar Bônus"]');
 
-    if(buttonchest === undefined){
-      console.log("Verificação Realizada");
+    if(buttonchest){
+      buttonChest.click();
+      console.log("Bau coletado");
     }
     else{
-      document.getElementsByClassName("tw-button tw-button--success")[0].click();
-      console.log("Bau coletado");
+     console.log("Verificação Realizada");
     }
 
 },15000);
