@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "ChannelPointFarmTwitch",
+    "author": "Augusto Savi",
+    "icons": {
+        "16": "/content/treasure.png",
+        "48": "/content/treasure.png",
+        "128": "/content/treasure.png"
+    },
+    "browser_action": {
+        "default_title": "Channel Point Farm",
+        "default_popup": "/src/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.twitch.tv/*"
+            ],
+            "js": [
+                "/src/content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "background"
+    ]
+}

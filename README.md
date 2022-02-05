@@ -1,21 +1,9 @@
-# ChannelPointFarmTwitch
+# Channel Point Farm Twitch
 
-```
-setInterval(function(){
-  buttonChest = document.querySelector('[aria-label="Resgatar Bônus"]');
-    if(buttonChest){
-      buttonChest.click();
-      console.log("Bau coletado");
-    }
-},15000);
-
-```
 ## Como Usar:
 
-### #1 Na tela da live abra o console do navegador com o atalho ctrl+ shift + i:
+### #1 Faça o download desse projeto 
 
-![console](https://user-images.githubusercontent.com/32443720/106391457-1d3dce00-63cc-11eb-98c1-a48d41504fb5.PNG)
+### #2 Acesse a aba de extensions do seu navegador e ative o modo desenvolvedor
 
-### 2# Copie o codigo abaixo, cole do console e clique em Enter e GG!!
-![console1](https://user-images.githubusercontent.com/32443720/106391456-1ca53780-63cc-11eb-883a-03fd83dc785f.PNG)
-
+### #3 Arraste a pasta desse repo para dentro da aba de extensions do seu navegador ou na aba de extensions clique no botão "Carregar sem compactação" e selecione a pasta do repo
